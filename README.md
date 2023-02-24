@@ -31,16 +31,27 @@ pip install flask
 Project Structure
 
 ├── app.py
+
 ├── chatbot
+
 │   ├── data
+
 │   │   ├── movies.yml
+
 │   │   ├── greetings.yml
+
 │   │   ├── goodbye.yml
+
 │   │   ├── country_info.yml
+
 │   │   └── weather.yml
+
 │   └── __init__.py
+
 ├── templates
+
 │   └── index.html
+
 └── README.md
 
 Conclusion:
