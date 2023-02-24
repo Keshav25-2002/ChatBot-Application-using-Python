@@ -1,11 +1,51 @@
-# ChatBot-Application-using-Python
+ChatBot Application using Python:
 
-The objective of the project is to build a chatbot application using python.
+This project is a simple ChatBot application built using Python. The ChatBot is designed to have a conversation with the user, answering basic questions and providing information about a topic of interest.
 
-The chatbot can work in retrieval based and generative based. You can create a general chatbot with the existing corpus (or) create a custom data for the related domain 
+Features:
 
-for any business purpose.
+1.The ChatBot greets the user and asks for their name.
 
-Libraries used:
+2.The ChatBot can answer basic questions about a topic of interest, such as the weather or a specific country.
 
-Chatterbot
+3.The ChatBot can provide recommendations for movies or books based on the user's preferences.
+
+4.The ChatBot can terminate the conversation when the user says "bye" or "goodbye".
+
+Technologies Used
+
+Python
+
+Natural Language Processing (NLP)
+
+ChatterBot Library
+
+Flask Framework
+
+Installation:
+
+pip install chatterbot
+
+pip install flask
+
+Project Structure
+
+├── app.py
+├── chatbot
+│   ├── data
+│   │   ├── movies.yml
+│   │   ├── greetings.yml
+│   │   ├── goodbye.yml
+│   │   ├── country_info.yml
+│   │   └── weather.yml
+│   └── __init__.py
+├── templates
+│   └── index.html
+└── README.md
+
+Conclusion:
+
+This ChatBot application demonstrates how simple it is to build a conversational agent using Python and NLP libraries. By leveraging the power of ChatterBot, we were able to build a ChatBot that can carry out simple conversations with users. This project can be extended to include more advanced NLP features such as sentiment analysis, topic modeling, and more.
+
+
+
